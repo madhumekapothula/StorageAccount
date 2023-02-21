@@ -5,7 +5,7 @@ namespace StorageAccount.Repository
 {
     public class FileStorage
     {
-        public static string connectionString="DefaultEndpointsProtocol=https;AccountName=madhustorage05;AccountKey=ljzKUBDbjyrtH7dnxkGYtszkAWv1xrgVY63VSHAaEJuE2lXMNCDMOVYZ1EYbGLU0nYHZcPpB+7xp+AStzLvFLA==;EndpointSuffix=core.windows.net";
+        public static string connectionString="DefaultEndpointsProtocol=https;AccountName=madhustorgaccount;AccountKey=uybYfRe7DCkumrWq9+apVknF69jj+5s0Pw3B74rr+WFtt7LCpLxdPpCLJ9xLULNXimNMku0hk6e2+AStTTgGVg==;EndpointSuffix=core.windows.net";
         static ShareServiceClient shareServiceClient=null;
         public static async Task CreateFile(string fileName)
         {
